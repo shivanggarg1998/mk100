@@ -1,0 +1,406 @@
+//@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+//@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,500,600');
+@import '../node_modules/react-quill/dist/quill.snow.css';
+@import '../node_modules/react-router-modal/css/react-router-modal.css';
+@import '../node_modules/react-typist/dist/Typist.css';
+@import '../node_modules/antd/dist/antd.css';
+@import '../node_modules/react-quill/dist/quill.snow.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900');
+
+@import 'styles/header';
+@import 'styles/landing';
+@import 'styles/signup';
+@import 'styles/product';
+@import 'styles/profile';
+@import 'styles/sellerNew';
+@import 'styles/cart';
+@import 'styles/feed';
+@import 'styles/checkout';
+@import 'styles/custom';
+@import 'styles/admin/index';
+@import 'styles/trendingfeed';
+@import 'styles/addPost';
+@import 'styles/chat';
+@import 'styles/shareProduct';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  background: #fafafa !important;
+}
+
+body {
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+*::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+*::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.main {
+  min-height: calc(100vh - 64px)
+}
+
+.nav_bar {
+  padding: 0;
+  font-family: 'Work Sans';
+  margin: 0;
+  // background-color: rgb(40, 40, 40);
+}
+
+.userName {
+  position: absolute;
+  top: 21px;
+  left: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.nav_bar li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.nav_bar li a,
+.nav_bar li {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 13px;
+  letter-spacing: 0px;
+}
+
+.nav_bar li a:hover,
+.nav_bar li:hover {
+  cursor: pointer;
+  // font-weight: 600;
+  text-shadow: 0 0 1px white;
+}
+
+//.active {
+//  font-weight: 900;
+//  background-color: white;
+//}
+
+.title {
+  margin: 30px 0 0 20px;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.6em;
+}
+
+.products {
+  //max-width: 1050px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px auto;
+  text-align: center;
+
+  .product {
+    width: 25%;
+
+    .image-container {
+      margin: 10px;
+    }
+
+    img {
+      width: 100%;
+      height : 150px;
+    }
+
+  }
+}
+
+.each_product {
+  width: 330px;
+  padding: 10px;
+}
+
+.footer {
+  padding: 20px;
+}
+
+.footer p {
+  clear: both;
+  letter-spacing: 1px;
+  max-width: 880px;
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  line-height: 25px;
+}
+
+.product-image,
+.product-info {
+  float: left;
+  width: 43%;
+  margin-top: 20px;
+}
+
+.product-image {
+  margin-right: 50px;
+}
+
+.product-image img {
+  width: 100%;
+}
+
+.details {
+  max-width: 960px;
+  width: 100%;
+  height: 400px;
+  margin: 60px auto;
+}
+
+.details h2 {
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+
+//.details p, li {
+//  letter-spacing: 1.2px;
+//  line-height: 30px;
+//}
+
+.add-cart {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 7px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.add-cart:hover,
+.login button:hover,
+.confirmButton:hover,
+.checkout button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.login {
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.login input {
+  margin-top: 29px;
+  padding: 5px;
+  width: 200px;
+  margin-right: 20px;
+  letter-spacing: 1px;
+}
+
+.login button,
+.signUp button,
+.shoppingCart button {
+  width: 109px;
+  height: 32px;
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+.signUp button {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.signUp {
+  margin: 60px auto;
+  width: 400px;
+}
+
+.signUp input {
+  padding: 5px;
+  border-radius: 0;
+  letter-spacing: 1px;
+}
+
+label {
+  font-weight: 300;
+}
+
+.shoppingCart {
+  max-width: 800px;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.cartHeading {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.cartImage {
+  width: 100px;
+}
+
+tr {
+  border-bottom: 1px solid #dcdee2;
+}
+
+th,
+td,
+tr {
+  font-size: 16px;
+  padding: 15px 0;
+  width: 200px;
+}
+
+.deleteCol {
+  width: 5px;
+}
+
+.deleteCol:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.tableHeaders th {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.shoppingCart button {
+  float: right;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+
+.thumbsUp {
+  display: block;
+  margin: 75px auto;
+  width: 75px;
+}
+
+.thanks {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.checkout button {
+  width: 100%;
+  height: 40px;
+  font-size: 15px;
+  letter-spacing: 5px;
+}
+
+.confirmButton a {
+  text-decoration: none;
+  color: white;
+}
+
+.billing,
+.shipping {
+  width: 300px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.formHeader {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.addressForms {
+  max-width: 644px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.message {
+  font-weight: 400;
+  color: red;
+}
+
+.atn-btn {
+  letter-spacing: 2px;
+}
+
+
+
+@media screen and (max-width: 960px) {
+
+  .product-image,
+  .product-info {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .products {
+    .product {
+      width: 50%
+    }
+  }
+
+  .container_40 {
+    padding: 0;
+  }
+  .container_80,.ant-card-body{
+    padding: 0;
+  }
+  .ant-steps{
+      -webkit-transform:scale(0.8);
+      -moz-transform:scale(0.8);
+      -ms-transform:scale(0.8);
+      transform:scale(0.8);
+      
+  }
+  .ant-steps-item{
+    left: -14%;
+  }
+  .product-image {
+    text-align: center;
+  }
+
+  .product-image img {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .signUp {
+    padding: 24px;
+  }
+}
+
+@import 'styles/chat';
+// @import 'styles/scss/now-ui-dashboard.scss'

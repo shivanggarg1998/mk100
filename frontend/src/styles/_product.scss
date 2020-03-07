@@ -1,0 +1,152 @@
+
+.product {
+
+  font-family: 'Lato', sans-serif;
+  //padding: 20px;
+
+  //.ant-row {
+  //  margin: 10px 0 10px 0;
+  //}
+
+  h5 {
+    font-size: 18px;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: #999999 !important;
+  }
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #777777 !important;
+  }
+  .ant-tabs-nav {
+    color: #aaaaaa !important;
+  }
+
+  &__container {
+    padding: 20px;
+  }
+
+  &__image {
+    width: 75%;
+    margin-left: 5%;
+    //margin: auto;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+
+  }
+
+  &__images {
+    width: 15%;
+    display: inline-block;
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-style: marquee-line;
+    background-size: cover;
+    background-position: center;
+
+    img {
+      width: 100%;
+      border: 1px solid #e3e3e3;
+    }
+
+    img:hover {
+      border-color: #999999;
+    }
+
+  }
+  &__images::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__heart {
+    display: flex;
+    background: #eeeeee;
+    font-size: 25px;
+    border: none;
+    float: right;
+    margin: 10px 10px 0 0;
+    width: 40px;
+    height: 40px;
+    //padding: 3px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    i {
+      margin: auto;
+    }
+  }
+
+
+  &__seller-name {
+    font-size: 25px;
+    font-weight: 400;
+
+    span {
+      font-size: 14px;
+      display: block;
+    }
+  }
+
+  &__seller-image {
+    //margin-top: 6px;
+    //margin: auto;
+    max-height: 50px;
+    max-width: 50px;
+
+    border: solid 1px black;
+    border-radius: 50%;
+  }
+
+  &__name {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  &__size {
+    //margin-top: 5px;
+    div:first-child {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__quantity {
+    margin-top: -2px;
+    div:first-child {
+      margin-bottom: 5px;
+    }
+  }
+
+  &__price {
+    margin-bottom: 0;
+    font-size: 23px;
+    margin-top: 18px;
+  }
+
+  &__overview {
+    padding-left: 18px;
+  }
+
+  &__add-to-cart {
+    width: 95%;
+    margin: auto;
+    //background-color: #3897f0 !important;
+    //border-color: #3897f0 !important;
+    background-color: rgb(40, 40, 40) !important;
+    border-color: rgb(40, 40, 40) !important;
+
+  }
+
+  &__share {
+    width: 95%;
+    margin: auto;
+    //background-color: #3897f0 !important;
+    //border-color: #3897f0 !important;
+    background-color: rgb(40, 40, 40) !important;
+    border-color: rgb(40, 40, 40) !important;
+  }
+
+}

@@ -1,0 +1,67 @@
+#progress {
+  padding: 30px 0 30px 0;
+}
+
+.page_title {
+  text-align: center;
+  font-weight: 600;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 6px;
+  }
+}
+
+.page_content {
+  border: solid 1px #dcdcdc;
+  padding: 40px 80px;
+  background-color: white;
+
+  p#message {
+    color: red;
+    text-align: left;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+#footer {
+  border-top: solid 1px rgb(203, 204, 201);
+  position: fixed;
+  height: 80px;
+  background-color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+
+  button {
+    font-size: 18px;
+    color: white;
+    background-color: #1d1d1d;
+    border: none;
+    font-weight: 800;
+    padding: 8px;
+
+    &:first-child {
+      float: left;
+      margin-top: 20px;
+      margin-left: 100px;
+    }
+
+    &:last-child {
+      float: right;
+      margin: 20px 100px auto auto;
+    }
+  }
+}
+
+.gst {
+  input {
+    display: inline;
+  }
+}

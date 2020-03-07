@@ -1,0 +1,33 @@
+.chart-card {
+
+    &_header {
+        font-size: 14px;
+        font-weight: 300;
+
+        padding: 5px;
+        display: flex;
+    }
+
+    &_title {
+        width: 90%;
+        float: left;
+
+
+    }
+
+    &_info {
+        width: 10%;
+        float: right;
+    }
+
+    &_body {
+        padding: 5px;
+    }
+
+
+    &_stat {
+        //font-weight: 500;
+        font-size: 30px;
+    }
+
+}

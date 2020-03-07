@@ -1,0 +1,50 @@
+{
+  "name": "apollo-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js --exec babel-node --presets env,stage-2",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "apollo-server": "^2.0.0",
+    "apollo-upload-server": "^7.1.0",
+    "aws-sdk": "^2.308.0",
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "bcryptjs": "^2.4.3",
+    "blueimp-file-upload-expressjs": "https://github.com/ldarren/blueimp-file-upload-expressjs.git",
+    "express-graphql": "^0.6.12",
+    "googleapis": "^34.0.0",
+    "graphql": "^0.13.2",
+    "graphql-type-json": "^0.2.1",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "5.2.6",
+    "multer": "^1.3.1",
+    "multer-s3": "^2.7.0",
+    "nanoid": "^1.2.3",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.3",
+    "qs": "^6.5.2",
+    "request": "^2.88.0",
+    "uuid": "^3.3.2",
+    "web-push": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  }
+}

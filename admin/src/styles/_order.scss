@@ -1,0 +1,11 @@
+.status {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: solid 0.5px black;
+    margin: auto;
+
+    &--success {
+        background-color: lighten(rgb(31, 141, 31), 15%) ;
+    }
+}

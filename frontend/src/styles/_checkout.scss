@@ -1,0 +1,90 @@
+.checkout_form {
+
+  padding: 30px 20px;
+
+  * {
+    display: block;
+  }
+
+  input, textarea {
+    border: solid 1px #b4b4b4;
+    box-shadow: none;
+    width: 100%;
+    margin-bottom: 15px;
+    line-height: 25px;
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  label {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
+
+.checkout_container {
+
+  padding: 20px 0;
+
+  .form_content {
+    border: solid 1px #dcdcdc;
+    background-color: white;
+    margin-bottom: 20px;
+  }
+
+  .form_title {
+    padding: 20px;
+    h3 {
+      margin-bottom: 5px;
+      font-weight: 400 !important;
+      font-size: 25px;
+    }
+  }
+
+  .ant-divider {
+    margin: 5px 0;
+  }
+  .form_address {
+    padding: 10px 20px;
+    display: flex;
+
+    .address_checkbox {
+      label {
+        margin-left: 20%;
+
+      }
+      width: 10%;
+    }
+    .address_content {
+      width: 60%;
+      font-weight: 400;
+    }
+    .address_btn_group {
+      width: 40%;
+      button {
+        width: 100%;
+      }
+
+    }
+  }
+
+  .add_new_address {
+    padding: 20px 20px;
+    //text-align: center;
+    button {
+      padding: 10px;
+      max-width: 400px;
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .checkout_container {
+    .form_content {
+      padding: 0;
+    }
+  }
+
+}

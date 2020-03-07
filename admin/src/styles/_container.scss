@@ -1,0 +1,129 @@
+.admin-panel {
+    .logo {
+        height: 32px;
+        background: rgba(255, 255, 255, .2);
+        margin: 16px;
+    }
+}
+
+.ant-card.grey-header {
+    .ant-card-head {
+        background: #f9f9f9 !important;
+    }
+}
+
+.add_listing {
+    button {
+        border: none;
+        cursor: pointer;
+        padding: 1px 10px;
+        background-color: transparent;
+        font-size: 32px;
+    }
+}
+
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+
+.ant-upload {
+    margin-bottom: 20px
+}
+
+.container_header {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+
+    * {
+        display: inline;
+    }
+
+    .icons {
+        margin-right: 10px;
+        padding: 0 5px;
+        height: 40px;
+
+        i {
+            font-size: 24px;
+            height: 40px;
+            padding-top: 8px;
+            color: black;
+            display: flex;
+            align-self: center;
+        }
+
+        &:hover {
+            background-color: #efefef;
+        }
+    }
+
+    .photo__avatar {
+        height: 40px;
+        width: 40px;
+        border: solid 2px black;
+        border-radius: 50%;
+        vertical-align: middle;
+    }
+
+    .name {
+        font-size: 20px;
+        text-align: center;
+        line-height: 34px;
+        border: solid 2px grey;
+        padding: 0 5px;
+        margin: auto 5px;
+        height: 34px;
+        display: flex;
+        align-self: center;
+
+        * {
+            color: black;
+        }
+    }
+}
+
+.hover_logout {
+    width: 150px;
+    padding: 15px 20px;
+    background-color: #efefef;
+
+    &:hover {
+        background-color: #dddddd;
+    }
+}
+
+.ant-popover-content {
+    width: 100% !important;
+}
+
+.header {
+    width: 100%;
+    background: white;
+    margin-bottom: 10px;
+    padding: 12px 40px;
+
+    &__brand {
+        display: inline;
+        font-weight: 600;
+
+        img {
+            height: 36px;
+        }
+    }
+
+    &__item {
+        float: right;
+        font-size: 20px;
+        padding-top: 8px;
+        line-height: 20px;
+        margin: 0 10px;
+        color: rgba(0, 0, 0, 0.781);
+    }
+}

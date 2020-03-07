@@ -1,0 +1,36 @@
+.notification {
+
+  padding: 10px 20px;
+  border-bottom: solid 1px #eeeeee;
+
+  &__image {
+    width: 100%;;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+  }
+
+  &__message {
+    span {
+      color: black;
+      margin: 10px;
+      font-size: 14px;
+    }
+  }
+
+  div.ant-col-20 {
+    padding: 5px 10px;
+  }
+}
+
+.notification__container {
+  .ant-card-body {
+    padding: 0;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+}
+
+.ant-popover-inner-content {
+  padding: 0 !important;
+}

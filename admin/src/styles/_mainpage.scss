@@ -1,0 +1,27 @@
+.main_page {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.35)), url(/main.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    position: absolute;
+    filter: blur(5px);
+}
+
+.main_content {
+    position:relative;
+}
+
+.main {
+    position: relative;
+}
+.custom_products_table {
+    ant-table-header {
+      overflow-y: hidden;
+    }
+  }
+  
+  .ant-table-fixed-header .ant-table-scroll .ant-table-header {
+    overflow-y: hidden;
+  }

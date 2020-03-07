@@ -1,0 +1,228 @@
+@import '../node_modules/antd/dist/antd.css';
+@import '../node_modules/react-table/react-table.css';
+@import './styles/container';
+@import './styles/order';
+@import './styles/login';
+@import './styles/chartCard';
+@import './styles/mainpage';
+@import './styles/login';
+
+.ant-carousel .slick-slide {
+  height: fit-content;
+  img {
+    width: 100%;
+  }
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+.ant-layout-header {
+  box-shadow: 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+//.ant-table td { white-space: nowrap; }
+
+.ant-table-thead > tr > th {
+  background-color: #eff0f1
+}
+
+.ant-table-tbody {
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+
+.ant-popover-content {
+  width: 300px;
+}
+
+.custom-filter-dropdown {
+  padding: 8px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .2);
+}
+
+.custom-filter-dropdown input {
+  width: 130px;
+  margin-right: 8px;
+}
+
+.custom-filter-dropdown button {
+  margin-right: 8px;
+}
+
+.highlight {
+  color: #f50;
+}
+
+.container_80 {
+  padding: 30px;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.custom_button {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  height: auto;
+  border: none;
+}
+
+.custom_button:hover {
+  background: black;
+  color: white;
+  border: none;
+}
+
+.ant-input:hover {
+  border-color: black;
+}
+
+.ant-input-affix-wrapper:hover {
+  .ant-input:not(.ant-input-disabled) {
+    border-color: black;
+  }
+}
+
+.ant-input:focus {
+  border-color: black;
+  box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2);
+}
+
+.ant-select-selection:hover {
+  border-color: black;
+}
+
+.ant-select-selection:focus {
+  border-color: black;
+  box-shadow: 0 0 0 2px rgba(100, 100, 100, 0.2);
+}
+
+canvas.react-pdf__Page__canvas {
+  margin: auto;
+  border: solid 1px #08080812;
+}
+
+.ant-popover-inner-content {
+  padding: 10px
+}
+
+.ant-table.ant-table-bordered {
+  border: solid 1px lightgray;
+}
+
+.ant-table-bordered .ant-table-thead > tr > th,
+.ant-table-bordered .ant-table-tbody > tr > td {
+  border: solid 1px lightgray;
+}
+
+.ant-layout-sider {
+  background: white;
+
+  i.anticon {
+    font-size: 25px;
+  }
+
+  font-size: 16px;
+
+}
+
+.ant-menu-inline-collapsed > .ant-menu-item .anticon {
+  font-size: 25px;
+  line-height: 45px;
+}
+
+.ant-menu-inline > .ant-menu-item {
+  line-height: 45px;
+  height: 50px;
+}
+
+.ant-menu-vertical > .ant-menu-item {
+  line-height: 45px;
+  height: 50px;
+}
+
+.ant-menu-inline-collapsed {
+  width: 100%;
+}
+
+.ant-layout-sider-trigger {
+  background: #eee;
+  color: black;
+}
+
+.post_card {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  .ant-card-cover > div {
+    width: 100%;
+    padding-top: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.admin_header {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  z-index: 10;
+  background: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between
+}
+
+.page_heading {
+  font-size: 40px;
+}
+
+.page_button {
+  margin-right: 10px;
+  margin-top: 10px;
+
+  button {
+    padding: 8px 20px;
+  }
+}
+
+.ReactTable {
+  margin-top: 15px;
+  border: solid 4px #8e939640 !important;
+}
+
+.rt-thead {
+  padding: 10px 0;
+  font-size: 18px;
+}
+
+.rt-tbody {
+  min-width: 900px;
+}
+
+.rt-thead.-filters {
+  font-size: 14px;
+}
+
+.rt-tr.-odd {
+  background-color: #ffffffd4;
+  border-bottom: solid 2px #8e939640;
+}
+
+.rt-tr-group {
+  margin: 10px 0;
+}
+
+div.rt-td {
+  padding-top: 20px !important;
+}
