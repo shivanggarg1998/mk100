@@ -14,6 +14,7 @@
     "apollo-upload-client": "^8.1.0",
     "axios": "^0.18.0",
     "bootstrap": "4",
+    "chart.js": "^2.9.3",
     "firebase": "^7.6.2",
     "font-awesome": "^4.7.0",
     "graphql": "^0.13.2",
@@ -49,6 +50,7 @@
     "react-toastify": "^5.5.0",
     "react-typing-animation": "^1.4.0",
     "react-typist": "^2.0.4",
+    "reactstrap": "^8.4.1",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
     "sweetalert": "^1.1.3"
