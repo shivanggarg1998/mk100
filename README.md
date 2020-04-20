@@ -19,12 +19,12 @@ Currently it is just a prototype which will be developed further.
 
 ## Instructions to Run
 
-# In graphQl folder (backend)
+### In graphQl folder (backend)
 1. `npm install` to install the dependencies and dev dependencies. You need to be in the project root for this.
 
 2. `npm run start` to start the development server
 
-# In frontend folder (frontend)
+### In frontend folder (frontend)
 1. `npm install` to install the dependencies and dev dependencies. You need to be in the project root for this.
 
 2. `npm run start` to start the development server
