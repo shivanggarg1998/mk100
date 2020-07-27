@@ -2,7 +2,7 @@
 <table>
 <tr>
 <td>
-  Ecommerce website for farmers to increase their reach to customer and to avoid middleman as much as possible. Build as a project for SIH 2019
+  Ecommerce website for farmers to increase their reach to customer and to avoid middleman as much as possible. Build as a project for SIH 2020. I Could not present it at site due to Covid 19 situation.
 </td>
 </tr>
 </table>
