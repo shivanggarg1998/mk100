@@ -22,7 +22,7 @@
     "bcryptjs": "^2.4.3",
     "blueimp-file-upload-expressjs": "https://github.com/ldarren/blueimp-file-upload-expressjs.git",
     "express-graphql": "^0.6.12",
-    "googleapis": "^34.0.0",
+    "googleapis": "^39.1.0",
     "graphql": "^0.13.2",
     "graphql-type-json": "^0.2.1",
     "jsonwebtoken": "^8.3.0",
