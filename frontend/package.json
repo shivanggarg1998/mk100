@@ -12,7 +12,7 @@
     "apollo-link-error": "^1.1.1",
     "apollo-link-http": "^1.5.5",
     "apollo-upload-client": "^8.1.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "4",
     "chart.js": "^2.9.3",
     "firebase": "^7.6.2",
