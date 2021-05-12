@@ -14,7 +14,7 @@
     "apollo-upload-client": "^8.1.0",
     "axios": "^0.18.0",
     "bootstrap": "4",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "firebase": "^7.6.2",
     "font-awesome": "^4.7.0",
     "graphql": "^0.13.2",
